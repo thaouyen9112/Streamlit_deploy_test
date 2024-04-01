@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import seaborn as sns
 st.title("Palmer's Penguins")
 st.markdown("Use this Streamlit app to make your own scatterplot about penguins!")
 penguin_file = st.file_uploader("Select Your Local Penguins CSV (default provided)")
